@@ -1,3 +1,4 @@
+
 # Machine Learning & Deep Learning Tutorials [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 - This repository contains a topic-wise curated list of Machine Learning and Deep Learning tutorials, articles and other resources. Other awesome lists can be found in this [list](https://github.com/sindresorhus/awesome).
@@ -32,6 +33,7 @@
     - [Restricted Boltzmann Machine, DBNs](#rbm)
     - [Autoencoders](#auto)
     - [Convolutional Neural Nets](#cnn)
+    - [Graph Representation Learning](#nrl)
 - [Natural Language Processing](#nlp)
     - [Topic Modeling, LDA](#topic)
     - [Word2Vec](#word2vec)
@@ -54,6 +56,8 @@
 ## Introduction
 
 - [Machine Learning Course by Andrew Ng (Stanford University)](https://www.coursera.org/learn/machine-learning)
+
+- [Curated List of Machine Learning Resources](https://hackr.io/tutorials/learn-machine-learning-ml)
 
 - [In-depth introduction to machine learning in 15 hours of expert videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/)
 
@@ -122,6 +126,8 @@
 - [Awesome Artificial Intelligence (GitHub Repo)](https://github.com/owainlewis/awesome-artificial-intelligence)
 
 - [UC Berkeley CS188 Intro to AI](http://ai.berkeley.edu/home.html), [Lecture Videos](http://ai.berkeley.edu/lecture_videos.html), [2](https://www.youtube.com/watch?v=W1S-HSakPTM)
+
+- [Programming Community Curated Resources for learning Artificial Intelligence](https://hackr.io/tutorials/learn-artificial-intelligence-ai) 
 
 - [MIT 6.034 Artificial Intelligence Lecture Videos](https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi), [Complete Course](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
 
@@ -266,6 +272,8 @@
 
 - [Machine Learning Cheat Sheet](https://github.com/soulmachine/machine-learning-cheat-sheet)
 
+- [ML Compiled](https://ml-compiled.readthedocs.io/en/latest/)
+
 <a name="classification" />
 
 ## Classification
@@ -408,6 +416,8 @@ Elastic Net](https://web.stanford.edu/~hastie/Papers/elasticnet.pdf)
 
 - [A curated list of awesome Deep Learning tutorials, projects and communities](https://github.com/ChristosChristofidis/awesome-deep-learning)
 
+- **[Deep Learning Papers Reading Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap/blob/master/README.md)**
+
 - [Lots of Deep Learning Resources](http://deeplearning4j.org/documentation.html)
 
 - [Interesting Deep Learning and NLP Projects (Stanford)](http://cs224d.stanford.edu/reports.html), [Website](http://cs224d.stanford.edu/)
@@ -450,6 +460,8 @@ Elastic Net](https://web.stanford.edu/~hastie/Papers/elasticnet.pdf)
 
 - [Deep Learning Basics](http://alexminnaar.com/deep-learning-basics-neural-networks-backpropagation-and-stochastic-gradient-descent.html)
 
+- [Intuition Behind Backpropagation](https://medium.com/spidernitt/breaking-down-neural-networks-an-intuitive-approach-to-backpropagation-3b2ff958794c)
+
 - [Stanford Tutorials](http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/)
 
 - [Train, Validation & Test in Artificial Neural Networks](http://stackoverflow.com/questions/2976452/whats-is-the-difference-between-train-validation-and-test-set-in-neural-networ)
@@ -463,6 +475,8 @@ Elastic Net](https://web.stanford.edu/~hastie/Papers/elasticnet.pdf)
 - [Neural Networks and Deep Learning Online Book](http://neuralnetworksanddeeplearning.com/)
 
 - Neural Machine Translation
+
+    - **[Machine Translation Reading List](https://github.com/THUNLP-MT/MT-Reading-List#machine-translation-reading-list)**
 
     - [Introduction to Neural Machine Translation with GPUs (part 1)](https://devblogs.nvidia.com/parallelforall/introduction-neural-machine-translation-with-gpus/), [Part 2](https://devblogs.nvidia.com/parallelforall/introduction-neural-machine-translation-gpus-part-2/), [Part 3](https://devblogs.nvidia.com/parallelforall/introduction-neural-machine-translation-gpus-part-3/)
     
@@ -708,6 +722,19 @@ Elastic Net](https://web.stanford.edu/~hastie/Papers/elasticnet.pdf)
     
     - [Visualising and Understanding CNNs](https://www.cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)
 
+<a name="nrl" />
+
+- Network Representation Learning
+
+    - [Awesome Graph Embedding](https://github.com/benedekrozemberczki/awesome-graph-embedding)
+    
+    - [Awesome Network Embedding](https://github.com/chihming/awesome-network-embedding)
+    
+    - [Network Representation Learning Papers](https://github.com/thunlp)
+    
+    - [Knowledge Representation Learning Papers](https://github.com/thunlp/KRLPapers)
+    
+    - [Graph Based Deep Learning Literature](https://github.com/naganandy/graph-based-deep-learning-literature)
 
 <a name="nlp" />
 
@@ -721,6 +748,8 @@ Elastic Net](https://web.stanford.edu/~hastie/Papers/elasticnet.pdf)
 
 - [Interesting Deep Learning NLP Projects Stanford](http://cs224d.stanford.edu/reports.html), [Website](http://cs224d.stanford.edu/)
 
+- [The Stanford NLP Group](https://nlp.stanford.edu/)
+
 - [NLP from Scratch | Google Paper](https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/35671.pdf)
 
 - [Graph Based Semi Supervised Learning for NLP](http://graph-ssl.wdfiles.com/local--files/blog%3A_start/graph_ssl_acl12_tutorial_slides_final.pdf)
@@ -731,15 +760,19 @@ Elastic Net](https://web.stanford.edu/~hastie/Papers/elasticnet.pdf)
     
 <a name="topic" />
 
-- [Topic Modeling](https://en.wikipedia.org/wiki/Topic_model)
+- Topic Modeling
+    - [Topic Modeling Wikipedia](https://en.wikipedia.org/wiki/Topic_model) 
+    - [**Probabilistic Topic Models Princeton PDF**](http://www.cs.columbia.edu/~blei/papers/Blei2012.pdf)
 
-    - [LDA](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation), [LSA](https://en.wikipedia.org/wiki/Latent_semantic_analysis), [Probabilistic LSA](https://en.wikipedia.org/wiki/Probabilistic_latent_semantic_analysis)
+    - [LDA Wikipedia](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation), [LSA Wikipedia](https://en.wikipedia.org/wiki/Latent_semantic_analysis), [Probabilistic LSA Wikipedia](https://en.wikipedia.org/wiki/Probabilistic_latent_semantic_analysis)
     
-    - [What is a good explanation of Latent Dirichlet Allocation?](https://www.quora.com/What-is-a-good-explanation-of-Latent-Dirichlet-Allocation)
+    - [What is a good explanation of Latent Dirichlet Allocation (LDA)?](https://www.quora.com/What-is-a-good-explanation-of-Latent-Dirichlet-Allocation)
     
-    - [Awesome LDA Explanation!](http://blog.echen.me/2011/08/22/introduction-to-latent-dirichlet-allocation/). [Another good explanation](http://confusedlanguagetech.blogspot.in/2012/07/jordan-boyd-graber-and-philip-resnik.html)
+    - [**Introduction to LDA**](http://blog.echen.me/2011/08/22/introduction-to-latent-dirichlet-allocation/), [Another good explanation](http://confusedlanguagetech.blogspot.in/2012/07/jordan-boyd-graber-and-philip-resnik.html)
     
-    - [The LDA Buffet- Intuitive Explanation](http://www.matthewjockers.net/2011/09/29/the-lda-buffet-is-now-open-or-latent-dirichlet-allocation-for-english-majors/)
+    - [The LDA Buffet - Intuitive Explanation](http://www.matthewjockers.net/2011/09/29/the-lda-buffet-is-now-open-or-latent-dirichlet-allocation-for-english-majors/)
+    
+    - [Your Guide to Latent Dirichlet Allocation (LDA)](https://medium.com/@lettier/how-does-lda-work-ill-explain-using-emoji-108abf40fa7d)
     
     - [Difference between LSI and LDA](https://www.quora.com/Whats-the-difference-between-Latent-Semantic-Indexing-LSI-and-Latent-Dirichlet-Allocation-LDA)
     
@@ -748,17 +781,26 @@ Elastic Net](https://web.stanford.edu/~hastie/Papers/elasticnet.pdf)
     - [alpha and beta in LDA](http://datascience.stackexchange.com/questions/199/what-does-the-alpha-and-beta-hyperparameters-contribute-to-in-latent-dirichlet-a)
     
     - [Intuitive explanation of the Dirichlet distribution](https://www.quora.com/What-is-an-intuitive-explanation-of-the-Dirichlet-distribution)
-    
+    - [topicmodels: An R Package for Fitting Topic Models](https://cran.r-project.org/web/packages/topicmodels/vignettes/topicmodels.pdf)
+
     - [Topic modeling made just simple enough](https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/)
     
     - [Online LDA](http://alexminnaar.com/online-latent-dirichlet-allocation-the-best-option-for-topic-modeling-with-large-data-sets.html), [Online LDA with Spark](http://alexminnaar.com/distributed-online-latent-dirichlet-allocation-with-apache-spark.html)
     
     - [LDA in Scala](http://alexminnaar.com/latent-dirichlet-allocation-in-scala-part-i-the-theory.html), [Part 2](http://alexminnaar.com/latent-dirichlet-allocation-in-scala-part-ii-the-code.html)
     
-    - [Segmentation of Twitter Timelines via Topic Modeling](http://alexperrier.github.io/jekyll/update/2015/09/16/segmentation_twitter_timelines_lda_vs_lsa.html)
+    - [Segmentation of Twitter Timelines via Topic Modeling](https://alexisperrier.com/nlp/2015/09/16/segmentation_twitter_timelines_lda_vs_lsa.html)
     
     - [Topic Modeling of Twitter Followers](http://alexperrier.github.io/jekyll/update/2015/09/04/topic-modeling-of-twitter-followers.html)
 
+    - [Multilingual Latent Dirichlet Allocation (LDA)](https://github.com/ArtificiAI/Multilingual-Latent-Dirichlet-Allocation-LDA). ([Tutorial here](https://github.com/ArtificiAI/Multilingual-Latent-Dirichlet-Allocation-LDA/blob/master/Multilingual-LDA-Pipeline-Tutorial.ipynb))
+
+    - [Deep Belief Nets for Topic Modeling](https://github.com/larsmaaloee/deep-belief-nets-for-topic-modeling)
+    - [Gaussian LDA for Topic Models with Word Embeddings](http://www.cs.cmu.edu/~rajarshd/papers/acl2015.pdf)
+    - Python
+        - [Series of lecture notes for probabilistic topic models written in ipython notebook](https://github.com/arongdari/topic-model-lecture-note)
+        - [Implementation of various topic models in Python](https://github.com/arongdari/python-topic-model)
+           
 <a name="word2vec" />
 
 - word2vec
@@ -797,6 +839,12 @@ Elastic Net](https://web.stanford.edu/~hastie/Papers/elasticnet.pdf)
 
     - [Classification Text with Bag of Words](http://fastml.com/classifying-text-with-bag-of-words-a-tutorial/)
 
+- Named Entity Recognitation 
+    
+     - [Stanford Named Entity Recognizer (NER)](https://nlp.stanford.edu/software/CRF-NER.shtml)
+
+     - [Named Entity Recognition: Applications and Use Cases- Towards Data Science](https://towardsdatascience.com/named-entity-recognition-applications-and-use-cases-acdbf57d595e)
+	
 - [Language learning with NLP and reinforcement learning](http://blog.dennybritz.com/2015/09/11/reimagining-language-learning-with-nlp-and-reinforcement-learning/)
 
 - [Kaggle Tutorial Bag of Words and Word vectors](https://www.kaggle.com/c/word2vec-nlp-tutorial/details/part-1-for-beginners-bag-of-words), [Part 2](https://www.kaggle.com/c/word2vec-nlp-tutorial/details/part-2-word-vectors), [Part 3](https://www.kaggle.com/c/word2vec-nlp-tutorial/details/part-3-more-fun-with-word-vectors)
@@ -883,7 +931,7 @@ Elastic Net](https://web.stanford.edu/~hastie/Papers/elasticnet.pdf)
 
 - [FAQs about Decision Trees](http://stats.stackexchange.com/questions/tagged/cart)
 
-- [Brief Tour of Trees and Forests](http://statistical-research.com/a-brief-tour-of-the-trees-and-forests/)
+- [Brief Tour of Trees and Forests](https://statistical-research.com/index.php/2013/04/29/a-brief-tour-of-the-trees-and-forests/)
 
 - [Tree Based Models in R](http://www.statmethods.net/advstats/cart.html)
 
@@ -1032,6 +1080,18 @@ Elastic Net](https://web.stanford.edu/~hastie/Papers/elasticnet.pdf)
     - [adaBag R package](https://cran.r-project.org/web/packages/adabag/adabag.pdf)
     
     - [Tutorial](http://math.mit.edu/~rothvoss/18.304.3PM/Presentations/1-Eric-Boosting304FinalRpdf.pdf)
+
+- CatBoost
+
+    - [CatBoost Documentation](https://catboost.ai/docs/)
+
+    - [Benchmarks](https://catboost.ai/#benchmark)
+
+    - [Tutorial](https://github.com/catboost/tutorials)
+
+    - [GitHub Project](https://github.com/catboost)
+
+    - [CatBoost vs. Light GBM vs. XGBoost](https://towardsdatascience.com/catboost-vs-light-gbm-vs-xgboost-5f93620723db)
 
 <a name="ensem" />
 
